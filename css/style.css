@@ -1,0 +1,84 @@
+@font-face{
+    font-family: "Fuente Encabezados Grandes";
+    src: url(../happy.ttf) format('woff');
+}
+
+header {
+    text-align: center;
+    background-image: url(../img/banner1.jpg);
+    background-position: center;
+    opacity: 0.9;
+    background-size: cover;
+    padding-top: 10px;
+}
+.menu a {
+    color: #99417B;
+}
+
+.menu {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+body {
+    color: #BB4D96;
+    margin: auto;
+    width: 900px;
+    border: solid;
+    border-color: #99417B;
+    font-family:'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    background-color: #DBA6B3;
+    padding-top: 10px;
+    font-weight: 300;
+    font-family: Fuente Encabezados Grandes;
+    font-style: normal;
+}
+
+.centrar-listas ul {
+	text-align: left;
+	display: inline-block;
+}
+
+h2 {
+    background-color: #DBA6B3;
+    text-align: left;
+    font-weight: 300;
+    font-style: normal;
+    font-family:"Fuente Encabezados Grandes";
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.centrar-info{
+    margin: auto;
+    width: 800px;
+}
+
+p {
+    line-height: 5px;
+}
+
+footer {
+    background-color: #DBA6B3;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #BB4D96;
+    padding-left: 10px;
+}
